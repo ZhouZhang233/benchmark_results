@@ -4,12 +4,6 @@
 
 :high_brightness: **All results in [[Baidu Yun](https://pan.baidu.com/s/1c27e9Ew)]** :high_brightness:
 
-![recent_develop](./img/recent_Tracker_development.png)
-![OTB2013_results](./img/OTB2013_results.png)
-![TB-100_results](./img/TB-100_results.png)
-![TB-50_results](./img/TB-50_results.png)
-
-
 ## Benchmark Results
 
 **The trackers are ordered by the average overlap scores.**
@@ -75,15 +69,24 @@
 |    TGPR     |    0.529     |       0.766        |   0.458    |      0.643       |     -     |        -        |       N       |    N(1)    |
 |     KCF     |    0.514     |        0.74        |   0.477    |      0.693       |   0.403   |      0.611      |       N       | Y(**172**) |
 |   GOTURN    |    0.444     |        0.62        |   0.427    |      0.572       |     -     |        -        |       Y       |  Y(*165*)  |
-
-## Visual Trackers
-### AAAI2020
-
-* **SiamFC++** Yinda Xu, Zeyu Wang, Zuoxin Li, Ye Yuan, Gang Yu.<br />
+## trackers based on FCOS(FCOS: Fully Convolutional One-Stage Object Detection)[[paper](https://arxiv.org/pdf/1904.01355.pdf)]
+* **SiamFC++**  Yinda Xu, Zeyu Wang, Zuoxin Li, Ye Yuan, Gang Yu.<br />
   "SiamFC++: Towards Robust and Accurate Visual Tracking with Target Estimation Guidelines." AAAI (2020).
   [[paper](https://arxiv.org/pdf/1911.06188.pdf)]
   [[project](https://github.com/MARMOTatZJU/SiamFCplusplus)]
-* **SPSTracker** Qintao Hu, Lijun Zhou, Xiaoxiao Wang, Yao Mao, Jianlin Zhang, Qixiang Ye.<br />
+* **SiamCAR** Dongyan Guo, Jun Wang, Ying Cui, Zhenhua Wang, Shengyong Chen.<br />
+  "SiamCAR: Siamese Fully Convolutional Classification and Regression for Visual Tracking." AAAI (2020).
+  [[paper](https://arxiv.org/pdf/1911.06188.pdf)]
+  [[project(not publish)]()]
+  
+## Visual Trackers
+### AAAI2020
+
+* **SiamFC++**  Yinda Xu, Zeyu Wang, Zuoxin Li, Ye Yuan, Gang Yu.<br />
+  "SiamFC++: Towards Robust and Accurate Visual Tracking with Target Estimation Guidelines." AAAI (2020).
+  [[paper](https://arxiv.org/pdf/1911.06188.pdf)]
+  [[project](https://github.com/MARMOTatZJU/SiamFCplusplus)]
+* **SPSTracker**  Qintao Hu, Lijun Zhou, Xiaoxiao Wang, Yao Mao, Jianlin Zhang, Qixiang Ye.<br />
   "SPSTracker: Sub-Peak Suppression of Response Map for Robust Object Tracking." AAAI (2020 oral).
   [[paper](https://arxiv.org/pdf/1912.00597.pdf)]
   [[project(not publish)]()]
