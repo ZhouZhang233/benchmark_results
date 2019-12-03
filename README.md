@@ -77,6 +77,11 @@
 |   GOTURN    |    0.444     |        0.62        |   0.427    |      0.572       |     -     |        -        |       Y       |  Y(*165*)  |
 
 ## Visual Trackers
+### AAAI2020
+* **SiamFC++** Yinda Xu, Zeyu Wang, Zuoxin Li, Ye Yuan, Gang Yu.<br />
+  "SiamFC++: Towards Robust and Accurate Visual Tracking with Target Estimation Guidelines." AAAI (2020).
+  [[paper](https://arxiv.org/pdf/1911.06188.pdf)]
+  [[project](https://github.com/MARMOTatZJU/SiamFCplusplus)]
 
 ### CVPR2019
 
