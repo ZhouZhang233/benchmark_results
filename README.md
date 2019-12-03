@@ -78,11 +78,16 @@
 
 ## Visual Trackers
 ### AAAI2020
+
 * **SiamFC++** Yinda Xu, Zeyu Wang, Zuoxin Li, Ye Yuan, Gang Yu.<br />
   "SiamFC++: Towards Robust and Accurate Visual Tracking with Target Estimation Guidelines." AAAI (2020).
   [[paper](https://arxiv.org/pdf/1911.06188.pdf)]
   [[project](https://github.com/MARMOTatZJU/SiamFCplusplus)]
-
+* **SPSTracker** Qintao Hu, Lijun Zhou, Xiaoxiao Wang, Yao Mao, Jianlin Zhang, Qixiang Ye.<br />
+  "SPSTracker: Sub-Peak Suppression of Response Map for Robust Object Tracking." AAAI (2020 oral).
+  [[paper](https://arxiv.org/pdf/1912.00597.pdf)]
+  [[project(not publish)]()]
+  
 ### CVPR2019
 
 * **SiamMask:** Qiang Wang, Li Zhang, Luca Bertinetto, Weiming Hu, Philip H.S. Torr.<br />
