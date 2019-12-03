@@ -9,16 +9,16 @@
 
   |   Tracker   |     EAO     |      A     |      R      |   conference  |     base method   |
   | :-------------: | :-------------: | :------------: | :-------------: | :---------------: | :------------------- :
-  |     D3S     |  **0.489**  |  **0.640** |  **0.150**  |      arxiv    |     segmentation  |
-  |   DROL-RPN  |    0.481    |    0.616   |             |    AAAI2020   |
-  |   DiMP-50   |    0.440    |    0.597   |    0.153    |    ICCV2019   |
-  |  SPStracker |    0.434    |    0.612   |    0.169    |    AAAI2020   |
-  |   SiamFC++  |    0.426    |    0.587   |    0.183    |    AAAI2020   |
-  |  SiamRPN++  |    0.414    |    0.600   |    0.234    |    CVPR2019   |
-  |    ATOM     |    0.401    |    0.590   |    0.204    |    CVPR2019   |
-  | UpdateNet-Da|    0.393    |            |             |    ICCV2019   |
-  |   SiamCAR   |             |            |             |      arxiv    |
-  |   SiamMask  |    0.347    |    0.602   |    0.288    |    CVPR2019   |
+  |     D3S     |  **0.489**  |  **0.640** |  **0.150**  |      arxiv    |    segmentation   |
+  |   DROL-RPN  |    0.481    |    0.616   |             |    AAAI2020   |  ATOM / SiamRPN++ |
+  |   DiMP-50   |    0.440    |    0.597   |    0.153    |    ICCV2019   |      IOU net      |
+  |  SPStracker |    0.434    |    0.612   |    0.169    |    AAAI2020   |        ATOM       |
+  |   SiamFC++  |    0.426    |    0.587   |    0.183    |    AAAI2020   |        FCOS       |
+  |  SiamRPN++  |    0.414    |    0.600   |    0.234    |    CVPR2019   |         RPN       |
+  |    ATOM     |    0.401    |    0.590   |    0.204    |    CVPR2019   |      IOU net      |
+  | UpdateNet-Da|    0.393    |            |             |    ICCV2019   |     DaSiamRPN     |
+  |   SiamCAR   |             |            |             |      arxiv    |  SiamRPN++ / FCOS |
+  |   SiamMask  |    0.347    |    0.602   |    0.288    |    CVPR2019   |    segmentation   |
   
   
   
