@@ -4,60 +4,20 @@
 
 :high_brightness: **All results in [[Baidu Yun](https://pan.baidu.com/s/1c27e9Ew)]** :high_brightness:
 
-## Benchmark Results
-
-**The trackers are ordered by the average overlap scores.**
-
-- `AUC` and `Precision` are the standard metrics.
-- `Deep Learning`: deep learning features, deep learning method and RL.
-- `RealTime`:  Speeds from the original paper, not test on the same platform. (just focus magnitude)
-
-
-
-|   Tracker   | AUC-CVPR2013 | Precision-CVPR2013 | AUC-OTB100 | Precision-OTB100 | AUC-OTB50 | Precision-OTB50 | Deep Learning |  RealTime  |
-| :---------: | :----------: | :----------------: | :--------: | :--------------: | :-------: | :-------------: | :-----------: | :--------: |
-|     ECO     |  **0.709**   |        0.93        | **0.694**  |    **0.910**     |  *0.643*  |     *0.874*     |       Y       |    N(6)    |
-|    MDNet    |   *0.708*    |      *0.948*       |  *0.678*   |     *0.909*      | **0.645** |    **0.890**    |       Y       |    N(1)    |
-|    SANet    |    0.686     |      **0.95**      |   0.692    |      0.928       |     -     |        -        |       Y       |    N(1)    |
-|  BranchOut  |              |                    |   0.678    |      0.917       |           |                 |       Y       |    N(1)    |
-|    TCNN     |    0.682     |       0.937        |   0.654    |      0.884       |     -     |        -        |       Y       |    N(1)    |
-|     TSN     |              |                    |   0.644    |      0.868       |   0.58    |      0.809      |       Y       |    N(1)    |
-|     CRT     |      -       |         -          |   0.642    |      0.875       |   0.594   |      0.835      |       Y       |   N(1.3)   |
-|    BACF     |    0.678     |                    |    0.63    |                  |           |                 |       N       |   Y(35)    |
-|    MCPF     |    0.677     |       0.916        |   0.628    |      0.873       |           |                 |       Y       |   N(0.5)   |
-|    CREST    |    0.673     |       0.908        |   0.623    |      0.837       |     -     |        -        |       Y       |    N(1)    |
-|    C-COT    |    0.672     |       0.899        |   0.682    |        -         |     -     |        -        |       Y       |   N(0.3)   |
-|     DNT     |    0.664     |       0.907        |   0.627    |      0.851       |     -     |        -        |       Y       |    N(5)    |
-|    PTAV     |    0.663     |       0.894        |   0.635    |      0.849       |           |                 |       Y       |   Y(25)    |
-|    ADNet    |    0.659     |       0.903        |   0.646    |       0.88       |           |                 |       Y       |    N(3)    |
-|   DSiamM    |    0.656     |       0.891        |            |                  |           |                 |       Y       |   Y(25)    |
-|    SINT+    |    0.655     |       0.882        |     -      |        -         |     -     |        -        |       Y       |    N(4)    |
-|     DRT     |    0.655     |       0.892        |     -      |        -         |     -     |        -        |       Y       |   N(0.8)   |
-|     RDT     |    0.654     |         -          |   0.603    |        -         |     -     |        -        |       Y       |   Y(43)    |
-| SRDCFdecon  |    0.653     |        0.87        |   0.627    |      0.825       |   0.56    |      0.764      |       N       |    N(1)    |
-|  DeepLMCF   |    0.643     |       0.892        |            |                  |           |                 |       Y       |    N(8)    |
-|   MUSTer    |    0.641     |       0.865        |   0.575    |      0.774       |     -     |        -        |       N       |    N(4)    |
-|  DeepSRDCF  |    0.641     |       0.849        |   0.635    |      0.851       |   0.56    |      0.772      |       Y       |   N(<1)    |
-|    EAST     |    0.638     |                    |            |                  |           |                 |       Y       | Y(23/159)  |
-|    SINT     |    0.635     |       0.851        |     -      |        -         |     -     |        -        |       Y       |    N(4)    |
-|     LCT     |    0.628     |       0.848        |   0.562    |      0.762       |   0.492   |      0.691      |       N       |   Y(27)    |
-|    SRDCF    |    0.626     |       0.838        |   0.598    |      0.789       |   0.539   |      0.732      |       N       |    N(5)    |
-|    LMCF     |    0.624     |       0.839        |   0.568    |                  |           |                 |       N       |   Y(85)    |
-
 ## top results on main datasets
 * **VOT2018** 
 
-  |   Tracker   |     EAO     |      A     |      R      |
-  | :-------------: | :-------------: | :------------: | :-------------: |
-  |     D3S     |  **0.489**  |  **0.640** |  **0.150**  |
-  |   DROL-RPN  |    0.481    |    0.616   |             |
-  |   DiMP-50   |    0.440    |    0.597   |    0.153    |
-  |  SPStracker |    0.434    |    0.612   |    0.169    |
-  |   SiamFC++  |    0.426    |    0.587   |    0.183    |
-  |  SiamRPN++  |    0.414    |    0.600   |    0.234    |
-  |    ATOM     |    0.401    |    0.590   |    0.204    |
-  | UpdateNet-Da|    0.393    |            |             |
-  |   SiamCAR   |             |            |             |
+  |   Tracker   |     EAO     |      A     |      R      |   conference  |
+  | :-------------: | :-------------: | :------------: | :-------------: | :---------------: |
+  |     D3S     |  **0.489**  |  **0.640** |  **0.150**  |      axive    |
+  |   DROL-RPN  |    0.481    |    0.616   |             |    AAAI2020   |
+  |   DiMP-50   |    0.440    |    0.597   |    0.153    |    ICCV2019   |
+  |  SPStracker |    0.434    |    0.612   |    0.169    |    AAAI2020   |
+  |   SiamFC++  |    0.426    |    0.587   |    0.183    |    AAAI2020   |
+  |  SiamRPN++  |    0.414    |    0.600   |    0.234    |    CVPR2019   |
+  |    ATOM     |    0.401    |    0.590   |    0.204    |    CVPR2019   |
+  | UpdateNet-Da|    0.393    |            |             |    ICCV2019   |
+  |   SiamCAR   |             |            |             |      axive    |
   
   
   
