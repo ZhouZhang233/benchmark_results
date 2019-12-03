@@ -69,6 +69,22 @@
 |    TGPR     |    0.529     |       0.766        |   0.458    |      0.643       |     -     |        -        |       N       |    N(1)    |
 |     KCF     |    0.514     |        0.74        |   0.477    |      0.693       |   0.403   |      0.611      |       N       | Y(**172**) |
 |   GOTURN    |    0.444     |        0.62        |   0.427    |      0.572       |     -     |        -        |       Y       |  Y(*165*)  |
+## top results on main datasets
+* **VOT2018** 
+  |   Tracker   |   EAO   |    A   |    R    |
+  |     D3S     |  0.489  |  0.640 |  0.150  |
+  |   DROL-RPN  |  0.481  |  0.616 |         |
+  |   DiMP-50   |  0.440  |  0.597 |  0.153  |
+  |  SPStracker |  0.434  |  0.612 |  0.169  |
+  |   SiamFC++  |  0.426  |  0.587 |  0.183  |
+  |  SiamRPN++  |  0.414  |  0.600 |  0.234  |
+  |    ATOM     |  0.401  |  0.590 |  0.204  |
+  | UpdateNet-Da|  0.393  |        |         |
+  |   SiamCAR   |         |        |         |
+  
+  
+  
+
 ## trackers based on FCOS(FCOS: Fully Convolutional One-Stage Object Detection)[[paper](https://arxiv.org/pdf/1904.01355.pdf)]
 * **SiamFC++**  Yinda Xu, Zeyu Wang, Zuoxin Li, Ye Yuan, Gang Yu.<br />
   "SiamFC++: Towards Robust and Accurate Visual Tracking with Target Estimation Guidelines." AAAI (2020).
