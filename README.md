@@ -43,11 +43,11 @@
 * **SPSTracker**  Qintao Hu, Lijun Zhou, Xiaoxiao Wang, Yao Mao, Jianlin Zhang, Qixiang Ye.<br />
   "SPSTracker: Sub-Peak Suppression of Response Map for Robust Object Tracking." AAAI (2020 oral).
   [[paper](https://arxiv.org/pdf/1912.00597.pdf)]
-  [[project(not publish)]()]
+  [[project](not publish)]()]
 * **DROL**  Jinghao Zhou, Peng Wang, Haoyang Sun.<br />
   "Discriminative and Robust Online Learning for Siamese Visual Tracking." AAAI (2020 oral).
   [[paper](https://arxiv.org/pdf/1909.02959.pdf)]
-  [[project(https://github.com/shallowtoil/DROL)]()]
+  [[project](https://github.com/shallowtoil/DROL)]()]
   
 ### CVPR2019
 
