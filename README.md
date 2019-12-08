@@ -47,7 +47,7 @@
 * **DROL**  Jinghao Zhou, Peng Wang, Haoyang Sun.<br />
   "Discriminative and Robust Online Learning for Siamese Visual Tracking." AAAI (2020 oral).
   [[paper](https://arxiv.org/pdf/1909.02959.pdf)]
-  [[project](https://github.com/shallowtoil/DROL)]()]
+  [[project](https://github.com/shallowtoil/DROL)]]
   
 ### CVPR2019
 
@@ -69,6 +69,7 @@
 * **C-RPN:** Heng Fan, Haibin Ling.<br />
   "Siamese Cascaded Region Proposal Networks for Real-Time Visual Tracking." CVPR (2019). 
   [[paper](https://arxiv.org/pdf/1812.06148.pdf)]
+  [[project](https://www3.cs.stonybrook.edu/~hling/code/CRPN/crpn.htm)]
 
 * **LaSOT:** Heng Fan, Liting Lin, Fan Yang, Peng Chu, Ge Deng, Sijia Yu, Hexin Bai, Yong Xu, Chunyuan Liao, Haibin Ling.<br />
   "LaSOT: A High-quality Benchmark for Large-scale Single Object Tracking." CVPR (2019). 
